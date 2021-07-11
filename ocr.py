@@ -12,7 +12,7 @@ def imageToString(image):
 
     # 使用する画像を指定してOCRを実行
     txt = tool.image_to_string(
-        # Image.open(image),　　# 画像ファイルを読み込む場合
+        # Image.open(image),　　# 画像ファイルを読み込む場合は左記のように記述
         image,
         lang='eng',
         builder=pyocr.builders.TextBuilder()

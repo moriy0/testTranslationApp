@@ -3,7 +3,7 @@ import tkinter as tk
 import cutOut
 
 # メインウィンドウ作成
-def createMainPage():
+def main():
     app = tk.Tk()
     app.title(u'translation')
     app.attributes('-topmost', True)
@@ -28,4 +28,4 @@ def createMainPage():
 
 
 if __name__ == '__main__':
-    createMainPage()
+    main()
